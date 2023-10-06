@@ -12,7 +12,7 @@ export default function Counter() {
   return (
     <>
     <br />
-    <h1 style={{color:'red'}}>{num}</h1>
+    <h1 style={{color:'red'}}>Item qty:{num}</h1>
     <button onClick={Dec}>Subtraction</button>
     <button onClick={Inc}>Addition</button>
     </>
